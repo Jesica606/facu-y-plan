@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-track {
+  background: #7c7c7c;
+}
+::-webkit-scrollbar-thumb {
+  background: #494949;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}

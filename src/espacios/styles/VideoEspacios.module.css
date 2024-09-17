@@ -1,0 +1,24 @@
+/* Estilo general para el contenedor del video */
+.videoContainer {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilo para el contenedor del reproductor */
+.playerWrapper {
+  border: 2px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Estilo para el contenedor de control del reproductor */
+.playerWrapper .video-react-control-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para los botones de control del reproductor */
+.playerWrapper .video-react-control {
+  color: #fff;
+}
